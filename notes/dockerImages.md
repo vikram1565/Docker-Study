@@ -17,6 +17,6 @@
 - docker images -f "dangling=false" -q
 - docker inspect
 - docker history imageName
-- docker run imageName/id
+- docker run imageName/ID
 - docker rmi image
 - docker rmi -f image

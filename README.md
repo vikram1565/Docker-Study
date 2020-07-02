@@ -45,7 +45,7 @@ docker ps
 - Run docker image
 
 ```
-docker run image/id
+docker run imageName/ID
 ```
 
 # Create Dockerfile
@@ -100,7 +100,7 @@ docker login
 - Add a docker tag to image.
 
 ```
-docker tag <image Name/ID>  <docker hub username>/<target imageName>:<version or tag>
+docker tag <imageName/ID>  <docker hub username>/<target imageName>:<version or tag>
 ```
 
 - Push your image.
@@ -126,7 +126,7 @@ docker run -d -p 80:80 <docker hub username>/<imageName>
 ```
 
 ```
-docker run imageName
+docker run imageName/ID
 ```
 
 # Stop running container
@@ -138,7 +138,7 @@ docker stop containerName/ID
 # Remove image
 
 ```
-docker rmi -f <image Name/ID>
+docker rmi -f <imageName/ID>
 ```
 
 - `-f` is for forcefully delete.
