@@ -2,11 +2,11 @@
 
 **Docker Workflow**
 
-![DockerWorkflow](assets/dockerWorkflow.PNG)
+![DockerWorkflow](../assets/dockerWorkflow.PNG)
 
 **Virtualization vs Containerization**
 
-![VirtualizationVScontainerization](assets/virtualizationVScontainerization.PNG)
+![VirtualizationVScontainerization](../assets/virtualizationVScontainerization.PNG)
 
 - In Virtualization, VMs having there own os and does not uses the host os.
   VMs resource allocation is fixed & does not change as per applications need. so there is lot of wastage of memory & space.
@@ -15,7 +15,7 @@
 
 **Docker Architecture**
 
-![DockerArchitecture](assets/dockerArchitecture.PNG)
+![DockerArchitecture](../assets/dockerArchitecture.PNG)
 
 **Docker File**
 
@@ -59,7 +59,7 @@ Docker Engine is a client-server application with these major components -
 
 - A command line interface (CLI) client (the docker command).
 
-  ![DockerEngine](assets/dockerEngine.PNG)
+  ![DockerEngine](../assets/dockerEngine.PNG)
 
 - The CLI uses the Docker REST API to control or interact with the Docker daemon through scripting or direct CLI commands. Many other Docker applications use the underlying API and CLI.
 

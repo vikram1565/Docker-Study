@@ -10,7 +10,7 @@
 
 - Docker is present in the entire application workflow, but its main use in deployment.
 
-![introduction](assets/dockerIntro1.PNG)
+![introduction](../assets/dockerIntro1.PNG)
 
 **Docker Installation**
 
