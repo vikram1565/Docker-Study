@@ -7,5 +7,14 @@
 
 1. Create a file named [Dockerfile](example/Dockerfile).
 2. Add instructions in [Dockerfile](example/Dockerfile).
-3. Build Dockerfile to create image(docker build FILE_LOCATION). if you are already at dockerfile location then use **docker build .** command.
-4. Run image to create container(**docker run IMAGE_ID**).
+3. Build Dockerfile to create image(docker build FILE_LOCATION). if you are already at dockerfile location then use below command.
+
+```
+docker build .
+```
+
+4. Run image to create container.
+
+```
+docker run iamgeName/ID
+```
