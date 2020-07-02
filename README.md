@@ -76,7 +76,7 @@ docker build -t myhelloworld .
 - `-t` parameter gives tag to yout image.
 - dot(.) at the end means this command reads the Dockerfile from the current directory otherwise specify Dockerfile path.
 
-# create a container from your image & run
+# Create a container from your image & run
 
 - to create container use command.
 
